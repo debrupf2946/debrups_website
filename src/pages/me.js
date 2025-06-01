@@ -83,17 +83,17 @@ export default function AboutPage() {
             </p>
             <ul className="contact-links">
               <li>
-                <a href="https://github.com/debruppaul" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/debrupf2946" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
               </li>
               <li>
-                <a href="https://linkedin.com/in/debruppaul" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/debrup-paul-599158227/" target="_blank" rel="noopener noreferrer">
                   LinkedIn
                 </a>
               </li>
               <li>
-                <a href="mailto:contact@debruppaul.dev">
+                <a href="mailto:f20212946@goa.bits-pilani.ac.in">
                   Email
                 </a>
               </li>

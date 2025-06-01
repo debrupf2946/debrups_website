@@ -1,0 +1,350 @@
+command = "gatsby build"
+publish = "public"
+redirectsOrigin = "config"
+
+[functions]
+
+[functions."*"]
+
+[[plugins]]
+origin = "config"
+package = "@netlify/plugin-gatsby"
+
+[plugins.inputs]
+
+[build]
+publish = "/Users/debruppaul/taniarascia.com/public"
+publishOrigin = "ui"
+commandOrigin = "ui"
+command = "npm run build"
+
+[build.environment]
+NODE_VERSION = "18"
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[[headers]]
+for = "/component---src-pages-index-js-cbd3c3cfbd1a1a829716.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-index-js-cbd3c3cfbd1a1a829716.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/webpack-runtime-99ca6c6156d6714da489.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/webpack-runtime-99ca6c6156d6714da489.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-me-js-f22e7fb541627b2caa26.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-me-js-f22e7fb541627b2caa26.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/*"
+
+[headers.values]
+cache-control = "public, max-age=0, must-revalidate"
+x-xss-protection = "1; mode=block"
+x-content-type-options = "nosniff"
+referrer-policy = "same-origin"
+x-frame-options = "DENY"
+
+[[headers]]
+for = "/static/*"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/framework-42881fe81be665c4ab50.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/framework-42881fe81be665c4ab50.js.LICENSE.txt"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/framework-42881fe81be665c4ab50.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/commons-a436225d82d4ea01154e.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/commons-a436225d82d4ea01154e.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/app-b74eb7cb932dae170f14.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/app-b74eb7cb932dae170f14.js.LICENSE.txt"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/app-b74eb7cb932dae170f14.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/108-9d97560d525618586a8b.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/108-9d97560d525618586a8b.js.LICENSE.txt"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/108-9d97560d525618586a8b.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/styles.07501fe0149b6bb4531e.css/"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-index-js-ebdf85318747a06938ef.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-index-js-ebdf85318747a06938ef.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/b00c6b70a99e6746616ab784d5e3c532e3f90d0c-2d0da4b6c1795800e17a.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/b00c6b70a99e6746616ab784d5e3c532e3f90d0c-2d0da4b6c1795800e17a.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-projects-js-a5f348b37af4e0bfba35.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-projects-js-a5f348b37af4e0bfba35.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/webpack-runtime-9ad53a01aa134821a352.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/webpack-runtime-9ad53a01aa134821a352.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-me-js-eb96e0fab5cd736b3070.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-me-js-eb96e0fab5cd736b3070.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-templates-category-js-357c32da23f1f906421c.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-templates-category-js-357c32da23f1f906421c.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-templates-tag-js-73e09633dab853d0f5d4.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-templates-tag-js-73e09633dab853d0f5d4.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-illustration-js-83e6534c44f8f0d4a1e9.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-illustration-js-83e6534c44f8f0d4a1e9.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-ivr-system-index-js-0202cc5a8df4d8138bde.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-ivr-system-index-js-0202cc5a8df4d8138bde.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-ml-and-data-science-index-js-6d63df6c9c3dbc27d14f.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-ml-and-data-science-index-js-6d63df6c9c3dbc27d14f.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/452-eb215c79bcf59a536c56.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/452-eb215c79bcf59a536c56.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-topics-js-f4c3d02d005949180020.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-topics-js-f4c3d02d005949180020.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-404-js-2230506e62bc11770211.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-404-js-2230506e62bc11770211.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-blog-js-016668c4d4f389409625.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-blog-js-016668c4d4f389409625.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-notes-js-8766d641b32d1aa345a2.js"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/component---src-pages-notes-js-8766d641b32d1aa345a2.js.map"
+
+[headers.values]
+cache-control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
