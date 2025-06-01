@@ -1,11 +1,50 @@
-# taniarascia.com
+# debrups_website
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Netlify Status](https://api.netlify.com/api/v1/badges/0a51d0e9-f611-4dd8-887f-fc1889e68540/deploy-status)](https://app.netlify.com/sites/tania/deploys)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Tania's personal website running on Gatsby, React, and Node.js.
+Welcome to my personal website! This is a modern, responsive website built with Gatsby, React, and Node.js, showcasing my portfolio, blog posts, and professional journey.
 
-**Note**: The source for this site was not created to be a template or theme, but for my own use. Feel free to take whatever inspiration from it that you want, but this code was not written with the intention of being cloned and deployed. As such, I do not provide support or guidance for doing that. I recommend using the [Gatsby Advanced Starter](https://github.com/vagr9k/gatsby-advanced-starter/) to set up a blog or an existing theme created for that purpose.
+## About
+
+This website serves as my digital home, featuring:
+- Technical blog posts and articles
+- Portfolio of my projects
+- Professional background and experience
+- Machine Learning and Data Science insights
+- IVR System development experiences
+
+## Technology Stack
+
+- **Framework**: Gatsby.js
+- **Frontend**: React.js
+- **Styling**: CSS Modules
+- **Deployment**: GitHub Pages/Netlify
+- **Content Management**: Markdown
+
+## Local Development
+
+```bash
+# Clone the repository
+git clone https://github.com/debrupf2946/debrups_website.git
+
+# Navigate to the directory
+cd debrups_website
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run develop
+```
+
+The site will be available at `http://localhost:8000`
 
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## Contact
+
+Feel free to reach out to me or check out my work:
+- GitHub: [@debrupf2946](https://github.com/debrupf2946)
+- Website: [Your website URL]
