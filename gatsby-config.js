@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Debrup's Portfolio",
     author: { name: 'Debrup Paul' },
-    pathPrefix: '/',
+    pathPrefix: '/debrups_website',
     siteUrl: 'https://debruppaul.dev',
     description:
       'AI Engineer and Machine Learning enthusiast. This is my portfolio website.',

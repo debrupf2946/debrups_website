@@ -1,20 +1,21 @@
 {
-  "name": "taniarascia.com",
+  "name": "debrups_website",
   "private": true,
-  "version": "7.1",
-  "description": "Tania Rascia's personal website.",
-  "author": "Tania Rascia",
+  "version": "1.0.0",
+  "description": "Debrup Paul's personal website",
+  "author": "Debrup Paul",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/taniarascia/taniarascia.com"
+    "url": "https://github.com/debrupf2946/debrups_website"
   },
   "dependencies": {
     "gatsby": "^5.14.3",
@@ -50,6 +51,7 @@
     "eslint": "^8.57.1",
     "eslint-config-react-app": "^7.0.1",
     "gatsby-plugin-manifest": "^5.14.0",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.3",
     "postcss-nesting": "^13.0.1"
   }
