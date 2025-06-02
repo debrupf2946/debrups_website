@@ -169,7 +169,7 @@ export default function Index({ data }) {
                 <h3>Birla Institute of Technology and Science, Pilani</h3>
                 <div className="education-meta">
                   <div className="education-primary-info">
-                    <span className="degree">Integrated BE in Mechanical Engineering & MSc in Mathematics</span>
+                    <span className="degree">Integrated BE & MSc in Mathematics</span>
                     <div className="education-timeline-info">
                       <span className="duration">Apr 2021 - May 2026</span>
                       <span className="dot-separator">•</span>
@@ -264,7 +264,7 @@ export default function Index({ data }) {
                 <span className="connect-label">Email</span>
               </a>
 
-              <a href="https://twitter.com/debruppaul" target="_blank" rel="noopener noreferrer" className="connect-item">
+              <a href="https://twitter.com/DebrupPaul2946" target="_blank" rel="noopener noreferrer" className="connect-item">
                 <div className="connect-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                     <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
